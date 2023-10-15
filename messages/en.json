@@ -1,0 +1,67 @@
+{ 
+  
+    "Features": { 
+      "Web Designer": "Web Designer",
+      "Call To Actions": "Call To Actions",
+      "Speed": "Speed",
+      "Makes you see what we can do": "Makes you see what we can do ",
+     "Skills": "Skills",
+     "Able to complete tasks in a short time and with great accuracy": "Able to complete tasks in a short time and with great accuracy"
+   },
+  
+   "HeroSection": { 
+     "Freelance": "Freelance",
+     "Design Projects": "Design Projects",
+     "Web Developer": "Web Developer",
+     "Faihaa Ibrahim":"Faihaa Ibrahim",
+     "This website is only for testing and demonstrating skills,We hope you like it,Enjoy Browsing!": "This website is only for testing and demonstrating skills. We hope you like it... Enjoy Browsing!"
+    },
+  
+   "Navbar":  { 
+     "Logo": "Logo",
+     "Sign In": "Sign In",
+     "Sign Up": "Sign Up",
+     
+     "home": "home",
+     "policy": "policy",
+     "contacts": "contacts",
+     "language": "language",
+     "about": "about",
+     "EN": "EN",
+     "AR": "AR" },
+
+   "signin":  {
+    "page": { 
+      "Sign in to your account": "Sign in to your account",
+      "to enjoy all of our cool": "to enjoy all of our cool",
+      "Email address": "Email addres",
+      "Password": "Password",
+      "Remember me": "Remember me",
+      "Forgot password?": "Forgot password?",
+      "Sign in": "Sign in"
+    }
+
+   },
+
+   "signup": {
+    "page": {
+      "Sign up": "Sign up",
+      "to enjoy all of our cool features ✌️": "to enjoy all of our cool features ✌️",
+      "First Name": "First Name",
+      "Last Name": "Last Name",
+      "Email address": "Email address",
+      "Password": "Password",
+      "Already a user?": "Already a user?",
+      "Log In": "Log In"
+      
+
+
+    }
+   }
+
+     
+  
+
+
+
+}

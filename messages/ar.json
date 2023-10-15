@@ -1,0 +1,84 @@
+{ 
+  
+    "Features": { 
+      "Web Designer": "مصمم ويب",
+      "Call To Actions": "دعوة للعمل ",
+       "Speed": "سرعة في الأداء",
+      "Makes you see what we can do": "يظهر لك مايممكنا فعله",
+     "Skills": "خبرات",
+     "Able to complete tasks in a short time and with great accuracy": "لقدرة على إنجاز المهام في وقت قصير وبدقة كبيرة" 
+   },
+  
+   "HeroSection": { 
+     "Freelance": "حساب خاص",
+     "Design Projects": "مشاريع تصميم",
+      
+     "Web Developer": "مطور ويب",
+     "Faihaa Ibrahim":"فيحاء الابراهيم",
+     "This website is only for testing and demonstrating skills,We hope you like it,Enjoy Browsing!": "هذا الموقع مخصص فقط لاختبار وإظهار المهارات. نأمل أن تنال إعجابك... استمتع بالتصفح!"
+     
+    
+    },
+  
+   "Navbar":  { 
+     "Logo": "شعار",
+     "Sign In": "تسجيل دخول ",
+     "Sign Up": "اشتراك",
+     
+     "home": "الرئيسية",
+     "policy": "سياسة الخصوصية",
+     "contacts": "جهات الاتصال",
+     "language": "اللغة",
+     "about": "من نحن",
+     "EN": "E",
+     "AR": "ع"
+     
+    },
+
+    "signin":  {
+      "page": { 
+        "Sign in to your account": "تسجيل الدخول إلى حسابك",
+        "to enjoy all of our cool features ✌️": "للاستمتاع بجميع ميزاتنا الرائعة ✌️",
+        "Email address": "عنوان البريد الالكتروني",
+        "Password": "كلمة المرور",
+        "Remember me": "تذكرنى",
+        "Forgot password?": "هل نسيت كلمة السر؟",
+        "Sign in": "تسجيل الدخول"
+      } },
+
+    "signup": {
+        "page": {
+          "Sign up": "اشتراك",
+          "to enjoy all of our cool features ✌️": "للاستمتاع بجميع ميزاتنا الرائعة ✌️",
+          "First Name": "الاسم الأول",
+          "Last Name": "اسم العائلة",
+          "Email address": "عنوان البريد الإلكتروني",
+          "Password": "كلمة المرور",
+          "Already a user?": "هل أنت مستخدم بالفعل؟",
+          "Log In": "تسجيل الدخول"
+          
+    
+    
+        } },
+        
+    "about": {
+      "page": {
+        "Hello":"مرحباً"
+        
+        
+  
+  
+      }
+       }
+
+      
+
+
+    
+  
+     
+  
+
+
+
+}

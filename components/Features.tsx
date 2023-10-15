@@ -1,0 +1,85 @@
+"use client"
+
+import {useTranslations} from 'next-intl';
+
+import {
+  Box,
+  VStack,
+  Button,
+  Flex,
+  Divider,
+  chakra,
+  Grid,
+  GridItem,
+  Container,
+} from '@chakra-ui/react'
+
+interface FeatureProps {
+  heading: string
+  text: string
+}
+
+const Feature = ({ heading, text }: FeatureProps) => {
+  return (
+    <GridItem>
+      <chakra.h3 fontSize="xl" fontWeight="600">
+        {heading}
+      </chakra.h3>
+      <chakra.p>{text}</chakra.p>
+    </GridItem>
+  )
+}
+
+export default function Features() {
+  const t = useTranslations();
+  return (
+    
+    <Box as={Container} maxW="7xl" mt={14} p={4}>
+      <Grid
+        templateColumns={{
+          base: 'repeat(1, 1fr)',
+          sm: 'repeat(2, 1fr)',
+          md: 'repeat(2, 1fr)',
+        }}
+        gap={4}>
+        <GridItem colSpan={1}>
+          <VStack alignItems="flex-start" spacing="20px">
+            <chakra.h2 fontSize="3xl" fontWeight="700">
+            {t('Features.Web Designer')}
+            </chakra.h2>
+            <Button colorScheme="green" size="md"> {t('Features.Call To Actions')}
+             
+            </Button>
+          </VStack>
+        </GridItem>
+        <GridItem>
+          <Flex>
+            <chakra.p>
+              Provide your customers a story they would enjoy keeping in mind the
+              objectives of your website. Pay special attention to the tone of voice.
+            </chakra.p>
+          </Flex>
+        </GridItem>
+      </Grid>
+      <Divider mt={12} mb={12} />
+      <Grid
+        templateColumns={{
+          base: 'repeat(1, 1fr)',
+          sm: 'repeat(2, 1fr)',
+          md: 'repeat(4, 1fr)',
+        }}
+        gap={{ base: '8', sm: '12', md: '16' }}>
+        <Feature
+          heading={t('Features.Skills')}
+          text={t('Features.Makes you see what we can do')}
+        />
+        <Feature
+          heading= {t('Features.Speed')}
+          text= {t('Features.Able to complete tasks in a short time and with great accuracy')} 
+        />
+        
+      </Grid>
+    </Box>
+    
+  )
+}
